@@ -4,7 +4,7 @@ import axios from "axios";
 export const API = axios.create({
   baseURL:
     process.env.REACT_APP_SERVER_URL ||
-    "https://app-journey.herokuapp.com/api/v1" ||
+    "https://app-the-journey.herokuapp.com/api/v1" ||
     "https://localhost:5000/api/v1",
 });
 
