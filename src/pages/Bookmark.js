@@ -13,7 +13,7 @@ const Bookmark = () => {
   const [open, setOpen] = React.useState(false);
   const [user, setUser] = useState([]);
 
-  const path = "http://localhost:5000/uploads/";
+  const path = "https://res.cloudinary.com/dopkysmt4/image/upload/v1648439144/";
 
   const handleClick = async () => {
     setOpen(true);
