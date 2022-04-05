@@ -59,6 +59,7 @@ const Profile = () => {
         formData,
         config
       );
+      console.log(response)
       // create method window reloads dokumen js
       window.location.reload();
     } catch (error) {
